@@ -1,13 +1,48 @@
 @media screen and (min-width:851px) {
-   
-
+.main-container{
+    overflow: hidden;
+}
+.services-card-container{
+    height: 430px;
+    position: relative;
+}
+.known-more-container{
+    position: absolute;
+    bottom: 2.5vh;
+    width: 95%;
+}
+.ui-ux-design{
+    height: 55px;
+}
 
 }
 
 @media screen and (min-width:451px) and (max-width:850px) {
-   
+    .main-container{
+        overflow: hidden;
+    }
+    .services-card-container{
+        height: 430px;
+        position: relative;
+    }
+    .known-more-container{
+        position: absolute;
+        bottom: 2.5vh;
+        width: 95%;
+    }
 }
 
 @media screen and (max-width:450px) {
- 
+    .main-container{
+        overflow: hidden;
+    }
+    .services-card-container{
+        height: 430px;
+        position: relative;
+    }
+    .known-more-container{
+        position: absolute;
+        bottom: 2.5vh;
+        width: 95%;
+    } 
 }    

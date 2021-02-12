@@ -13,9 +13,20 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import Technology from './components/Technology';
 import Team from './components/Team';
 import Form from './Form';
-import "./components/mycss.css"
+import "./components/mycss.css";
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(()=>{
+    AOS.init({
+      offset: 20,
+      duration: 700,
+      easing: 'ease-in-sine',
+      delay: 0,
+    });
+  },[])
   return (
     <Router>
        <Navbar />
