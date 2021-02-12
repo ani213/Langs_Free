@@ -13,6 +13,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import Technology from './components/Technology';
 import Team from './components/Team';
 import Form from './Form';
+import "./components/mycss.css"
 
 function App() {
   return (

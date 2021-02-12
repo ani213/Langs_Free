@@ -3,7 +3,6 @@ import { MdDevicesOther } from "react-icons/md";
 import Spin from 'react-reveal/Spin';
 // import Fade from 'react-reveal/Fade';
 
-
 import Slider from './Slider';
 import SliderAnimation from './SliderAnimation';
 
