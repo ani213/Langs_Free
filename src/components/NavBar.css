@@ -1,0 +1,20 @@
+.navbar{
+    background-color: transparent !important;
+    box-shadow: 0 0 0 0 !important;
+    
+}
+.navbar .navbarcss{
+    color: white !important;
+}
+/* .open{
+    display: none !important;
+} */
+.logo-position{
+    margin: auto;
+    margin-left: 0;
+    display: inline;
+}
+.navbar .margin-navbutton{
+    color: white !important;
+    padding-bottom: 10px;
+}
