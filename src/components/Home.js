@@ -49,7 +49,7 @@ function Home() {
             <i className="fa fa-desktop w3-margin-bottom w3-jumbo w3-center icon-color" data-aos="fade-up"></i>
             <p className="w3-large" data-aos="zoom-out-down">Web Development</p>
             <p data-aos="zoom-in-right">Web has evolved substantially in the last decade and is now part of our everyday lives through smartphones, TVs, laptops and other digital devices. Its imperative that businesses are serious about their online presence as that is the first impression a prospect could get...</p>
-            <ul className="w3-ul w3-white w3-hover-shadow known-more-container" data-aos="fade-up">
+            <ul className="w3-ul w3-white w3-hover-shadow known-more-container" data-aos="zoom-out-down">
               <li className="w3-light-grey w3-padding-24">
               <a href="https://www.langsfree.com/services">  <button className="w3-button w3-black w3-padding-large">Know more</button></a>
               </li>
@@ -134,90 +134,90 @@ function Home() {
       </div>
 
 
-      <div className="w3-container w3-light-grey Digital" style={{ padding: "128px 16px" }}>
+      <div className="w3-container w3-light-grey Digital" style={{ padding: "128px 16px" }} >
         <div className="w3-row-padding">
-          <div className="w3-col m6">
-            <h3 className="digital-padd">Digital Core Capabilities</h3>
+          <div className="w3-col m6" >
+            <h3 className="digital-padd" data-aos="fade-right">Digital Core Capabilities</h3>
 
-            <h4>Build vital capabilities to deliver digital outcomes.</h4>
-            <p className="digital-expertise">What will it take for companies with complex legacy landscapes to quickly sense changing marketing trends and continuously evolve in response? Organizations will have to augment their core digital capabilities to leverage deep insights, bridge the gap between physical and digital worlds through platforms, modernize their core systems to accelerate innovation, run the business without worrying about risks and also deliver design-led experiences that delight customers.
+            <h4 data-aos="fade-left">Build vital capabilities to deliver digital outcomes.</h4>
+            <p className="digital-expertise" data-aos="fade-right">What will it take for companies with complex legacy landscapes to quickly sense changing marketing trends and continuously evolve in response? Organizations will have to augment their core digital capabilities to leverage deep insights, bridge the gap between physical and digital worlds through platforms, modernize their core systems to accelerate innovation, run the business without worrying about risks and also deliver design-led experiences that delight customers.
 
               Drive continuous improvement by transferring digital skills along with ideas from a cross-section of industries and innovation ecosystems.</p>
-            <p><a href="https://www.langsfree.com/technology" className="w3-button w3-black btn-digital">Explore</a></p>
+            <p><a href="https://www.langsfree.com/technology" className="w3-button w3-black btn-digital" data-aos="fade-left">Explore</a></p>
           </div>
           <div className="w3-col m6">
-            <img className="w3-image w3-round-large" src="/img/digital_core.jpg" alt="Buildings" width="700" height="394" />
+            <img className="w3-image w3-round-large" src="/img/digital_core.jpg" alt="Buildings" width="700" height="394" data-aos="fade-left"/>
           </div>
         </div>
       </div>
       <div className="w3-container w3-light-grey Start" style={{ padding: "128px 16px" }}>
         <div className="w3-row-padding">
           <div className="w3-col m6">
-            <img className="w3-image w3-round-large" src="/img/workplace-1245776_1920.jpg" alt="Buildings" width="700" height="394" />
+            <img className="w3-image w3-round-large" src="/img/workplace-1245776_1920.jpg" alt="Buildings" width="700" height="394" data-aos="zoom-in-right" data-aos-duration="1000"/>
           </div>
           <div className="w3-col m6">
-            <h3 className="digital-padd">Start A Good Plan</h3>
+            <h3 className="digital-padd" data-aos="fade-left">Start A Good Plan</h3>
 
-            <h4>Build vital capabilities to deliver our customers.</h4> 
-            <p className="digital-expertise">Lang'sfree Technology Pvt. Ltd. corporate mission is "to provide IT services
+            <h4 data-aos="fade-right">Build vital capabilities to deliver our customers.</h4> 
+            <p className="digital-expertise" data-aos="fade-left">Lang'sfree Technology Pvt. Ltd. corporate mission is "to provide IT services
              at affordable cost. Such as digital marketing, web development, app development, data services , 
              ux/ui designing etc.".
              “to lead in the creation, development and IT services most advanced information technologies, software, IT services. And our worldwide network of LANG'sFREE solutions and services professionals translates these advanced technologies into business value for our customers. We translate these advanced technologies
               into value for our customers through our professional solutions, services worldwide.”</p>
-            <p><a href="https://www.langsfree.com/services" className="w3-button w3-black btn-digital">Explore</a></p>
+            <p><a href="https://www.langsfree.com/services" className="w3-button w3-black btn-digital" data-aos="fade-right">Explore</a></p>
          </div>
         </div>
       </div>
 
       <div className="w3-container" style={{ padding: "80px 16px" }} id="team">
-        <h3 className="w3-center">THE TEAM</h3>
-        <p className="w3-center w3-large">The ones who runs this company</p>
+        <h3 className="w3-center" data-aos="zoom-in-down">THE TEAM</h3>
+        <p className="w3-center w3-large" data-aos="zoom-in-up">The ones who runs this company</p>
         <div className="w3-row-padding w3-grayscale" style={{ marginTop: "64px" }}>
           <div className="w3-col l3 m6 w3-margin-bottom">
-            <div className="w3-card">
-              <img src="/img/satyam2.jpg" alt="John" style={{ width: "100%" ,height:"300px" }} />
-              <div className="w3-container">
+            <div className="w3-card " data-aos="zoom-in">
+              <img className="cover" src="/img/satyam2.jpg" alt="John" style={{ width: "100%" ,height:"300px" }} />
+              <div className="w3-container ">
                 <h3>Satyam Gupta</h3>
                 <p className="w3-opacity">Director</p>
                 <p>“A successful website does three things:
                     It attracts the right kinds of visitors.
                     Guides them to the main services or product you offer.
                     Collect Contact details for future ongoing relation.”</p>
-                <p> <a href="https://www.langsfree.com/contacts"> <button className="w3-button w3-light-grey w3-block"><i className="fa fa-envelope"></i> Contact</button></a>
+                <p className="contact-button"> <a href="https://www.langsfree.com/contacts"> <button className="w3-button w3-light-grey w3-block"><i className="fa fa-envelope"></i> Contact</button></a>
                   </p>
               </div>
             </div>
           </div>
           <div className="w3-col l3 m6 w3-margin-bottom">
-            <div className="w3-card">
-              <img src="/img/sadi.jpg" alt="Jane" style={{ width: "100%" ,height:"300px" }} />
-              <div className="w3-container">
+            <div className="w3-card " data-aos="zoom-in">
+              <img className="cover" src="/img/anupam.jpg" alt="Jane" style={{ width: "100%" ,height:"300px" }} />
+              <div className="w3-container ">
                 <h3>Anupam Singh</h3>
                 <p className="w3-opacity">Director</p>
                 <p>All of us running in different ways in this cycle of universe.One with Bicycle or another one with plane but the fact is Starting point and end point is same(Birth and Death).</p>
-                <p><a href="https://www.langsfree.com/contacts"> <button className="w3-button w3-light-grey w3-block"><i className="fa fa-envelope"></i> Contact</button></a></p>
+                <p className="contact-button"><a href="https://www.langsfree.com/contacts"> <button className="w3-button w3-light-grey w3-block"><i className="fa fa-envelope"></i> Contact</button></a></p>
               </div>
             </div>
           </div>
           <div className="w3-col l3 m6 w3-margin-bottom">
-            <div className="w3-card">
-              <img src="/img/devansh.jpg" alt="Mike" style={{ width: "100%" ,height:"300px" }} />
-              <div className="w3-container">
+            <div className="w3-card " data-aos="zoom-in">
+              <img className="cover" src="/img/danish.jpg" alt="Mike" style={{ width: "100%" ,height:"300px" }} />
+              <div className="w3-container ">
                 <h3>Devansh Mishra</h3>
                 <p className="w3-opacity">Bussiness Analyst</p>
                 <p>“If a man does not keep pace with his companions, perhaps it is because he hears a different drummer. Let him step to the music which he hears, however measured or far away.”</p>
-                <p><a href="https://www.langsfree.com/contacts"> <button className="w3-button w3-light-grey w3-block"><i className="fa fa-envelope"></i> Contact</button></a></p>
+                <p className="contact-button"><a href="https://www.langsfree.com/contacts"> <button className="w3-button w3-light-grey w3-block"><i className="fa fa-envelope"></i> Contact</button></a></p>
               </div>
             </div>
           </div>
           <div className="w3-col l3 m6 w3-margin-bottom">
-            <div className="w3-card">
-              <img src="/img/workplace-1245776_1920.jpg" alt="Dan" style={{ width: "100%" ,height:"300px" }} />
+            <div className="w3-card" data-aos="zoom-in">
+              <img className="cover" src="/img/workplace-1245776_1920.jpg" alt="Dan" style={{ width: "100%" ,height:"300px" }} />
               <div className="w3-container">
                 <h3>Ved Prakash</h3>
                 <p className="w3-opacity">Designer</p>
                 <p>“How well we communicate is determined not by how well we say things, but how well we are understood.”</p>
-                <p><a href="https://www.langsfree.com/contacts"> <button className="w3-button w3-light-grey w3-block"><i className="fa fa-envelope"></i> Contact</button></a></p>
+                <p className="contact-button"><a href="https://www.langsfree.com/contacts"> <button className="w3-button w3-light-grey w3-block"><i className="fa fa-envelope"></i> Contact</button></a></p>
               </div>
             </div>
           </div>
@@ -225,7 +225,7 @@ function Home() {
       </div>
 
 
-      <div className="w3-container w3-row w3-center w3-dark-grey w3-padding-64 our-client">
+      <div className="w3-container w3-row w3-center w3-dark-grey w3-padding-64 our-client" data-aos="flip-up">
       <Spin><div className="w3-quarter happy-client">
           <span className="w3-xxlarge">5+</span>
           <br />Partners
@@ -246,11 +246,11 @@ function Home() {
 
 
       <div className="w3-container" style={{ padding: "80px 16px" }} id="work">
-        <h3 className="w3-center">OUR WORK</h3>
-        <p className="w3-center w3-large">What we've done for people</p>
+        <h3 className="w3-center" data-aos="zoom-in-down">OUR WORK</h3>
+        <p className="w3-center w3-large" data-aos="zoom-in-up">What we've done for people</p>
 
         <div className="w3-row-padding" style={{ marginTop: "64px" }}>
-          <div className="w3-col l3 m6">
+          <div className="w3-col l3 m6" data-aos="zoom-in">
             <div className="cbp-item" style={{ width: "262px;", left: "0px;", top: " 0px;" }}>
               <div className="cbp-item-wrapper">
                 <a href="images/part1.jpg" className="cbp-lightbox">
@@ -264,7 +264,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="w3-col l3 m6">
+          <div className="w3-col l3 m6" data-aos="zoom-in">
             <div className="cbp-item" style={{ width: "262px;", left: "0px;", top: " 0px;" }}>
               <div className="cbp-item-wrapper">
                 <a href="images/part1.jpg" className="cbp-lightbox">
@@ -278,7 +278,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="w3-col l3 m6">
+          <div className="w3-col l3 m6" data-aos="zoom-in">
             <div className="cbp-item" style={{ width: "262px;", left: "0px;", top: " 0px;" }}>
               <div className="cbp-item-wrapper">
                 <a href="images/part1.jpg" className="cbp-lightbox">
@@ -292,7 +292,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="w3-col l3 m6">
+          <div className="w3-col l3 m6" data-aos="zoom-in">
             <div className="cbp-item" style={{ width: "262px;", left: "0px;", top: " 0px;" }}>
               <div className="cbp-item-wrapper">
                 <a href="images/part1.jpg" className="cbp-lightbox">
@@ -308,7 +308,7 @@ function Home() {
           </div>
         </div>
         <div className="w3-row-padding w3-section">
-          <div className="w3-col l3 m6">
+          <div className="w3-col l3 m6" data-aos="zoom-in">
             <div className="cbp-item" style={{ width: "262px;", left: "0px;", top: " 0px;" }}>
               <div className="cbp-item-wrapper">
                 <a href="images/part1.jpg" className="cbp-lightbox">
@@ -322,7 +322,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="w3-col l3 m6">
+          <div className="w3-col l3 m6" data-aos="zoom-in">
             <div className="cbp-item" style={{ width: "262px;", left: "0px;", top: " 0px;" }}>
               <div className="cbp-item-wrapper">
                 <a href="images/part1.jpg" className="cbp-lightbox">
@@ -336,7 +336,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="w3-col l3 m6">
+          <div className="w3-col l3 m6" data-aos="zoom-in">
             <div className="cbp-item" style={{ width: "262px;", left: "0px;", top: " 0px;" }}>
               <div className="cbp-item-wrapper">
                 <a href="images/part1.jpg" className="cbp-lightbox">
@@ -350,7 +350,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="w3-col l3 m6">
+          <div className="w3-col l3 m6" data-aos="zoom-in">
             <div className="cbp-item" style={{ width: "262px;", left: "0px;", top: " 0px;" }}>
 
               <div className="cbp-item-wrapper">
@@ -369,15 +369,15 @@ function Home() {
         </div>
       </div>
 
-      <div id="modal01" className="w3-modal w3-black" onclick="this.style.display='none'">
+      <div id="modal01" className="w3-modal w3-black" onclick="this.style.display='none'" data-aos="flip-up" data-aos-duration="1000" >
         <span className="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
-        <div className="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-          <img id="img01" className="w3-image" />
-          <p id="caption" className="w3-opacity w3-large"></p>
+        <div className="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64" data-aos="flip-up" data-aos-duration="1000">
+          <img id="img01" className="w3-image" data-aos="flip-up"/>
+          <p id="caption" className="w3-opacity w3-large" data-aos="flip-up" data-aos-duration="1000"></p>
         </div>
       </div>
 
-      <div className="container bg_contact bg_one border_radius">
+      <div className="container bg_contact bg_one border_radius" data-aos="flip-up" data-aos-duration="1000">
         <div className="row">
           <div className="col-sm-3">
             <div className="contact_inner"> <i className="fa fa-phone"></i>

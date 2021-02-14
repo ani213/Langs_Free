@@ -14,6 +14,10 @@
 .ui-ux-design{
     height: 55px;
 }
+.cover{
+    object-fit: cover;
+}
+
 
 }
 

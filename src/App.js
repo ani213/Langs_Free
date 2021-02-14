@@ -21,9 +21,9 @@ import { useEffect } from 'react';
 function App() {
   useEffect(()=>{
     AOS.init({
-      offset: 20,
+      offset: 80,
       duration: 700,
-      easing: 'ease-in-sine',
+      easing: 'ease-in-linear',
       delay: 0,
     });
   },[])
